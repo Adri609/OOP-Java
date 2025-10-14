@@ -14,7 +14,6 @@ public class MainOrders {
 
         // Total ammount of all orders
         double amount = o1.calculateAmount() + o2.calculateAmount() + o3.calculateAmount();
-        System.out.println("Global amount : " + amount);
+        System.out.println("\nGlobal amount : " + amount + "€");
     }
-    
 }

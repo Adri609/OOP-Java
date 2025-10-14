@@ -23,7 +23,7 @@ public class Order {
         System.out.println("\nOrder: " + this.code);
         System.out.println("Product: "+ this.product);
         System.out.println("Quantity: "+ this.quantity);
-        System.out.println("Unit price: "+ this.unitPrice);
-        System.out.println("Total amount: "+ calculateAmount());
+        System.out.println("Unit price: "+ this.unitPrice + "€");
+        System.out.println("Total amount: "+ calculateAmount() + "€");
     }
 }
